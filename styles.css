@@ -8,14 +8,14 @@ body{
     background-color: #FAFAFA;
     margin: 0 auto;
     
-    max-width: 1440px;
+    max-width: 100%;
     min-height: 100vh;
     
     
 }
 
 .container{
-width: 100%;
+width: min(90%,);
  height: 1489px;
 
     
@@ -213,6 +213,12 @@ p{
             left: 135px;
             bottom: 234px;
                 transform:rotate(90deg);
+            }
+
+            @media screen and (max-width: 375px;) {
+               .main-header{
+               font-size: 12px;
+                
             }
 
 
